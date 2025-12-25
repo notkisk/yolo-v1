@@ -1,0 +1,14 @@
+.venv
+
+temp_voc
+data
+
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+*.pyc
