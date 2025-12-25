@@ -12,3 +12,5 @@ __pycache__/
 htmlcov/
 
 *.pyc
+
+__pycache__
