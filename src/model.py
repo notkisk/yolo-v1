@@ -4,7 +4,7 @@ yolo is basically a huge convolutional network with a few fully connected layers
 
 import torch
 import torch.nn as nn
-from config import architecture_config
+from .config import architecture_config
 
 class CNNBLOCK(nn.Module):
     def __init__(self, in_channels, out_channels, **kwargs):

@@ -8,9 +8,9 @@ import torch.optim as optim
 import torchvision.transforms.functional as FT
 from tqdm import tqdm
 from torch.utils.data import DataLoader
-from model import YOLOV1
-from dataset import VOCDataset
-from loss import YOLOLoss
+from src.model import YOLOV1
+from src.dataset import VOCDataset
+from src.loss import YOLOLoss
 
 LEARNING_RATE = 2e-5
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"

@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from utils import calculate_intersection_over_union
+from .utils import calculate_intersection_over_union
 
 
 class YOLOLoss(nn.Module):
